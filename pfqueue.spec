@@ -1,4 +1,5 @@
 Summary:	A console-based tool for handling MTA queues
+Summary(pl):	Tekstowe narzêdzie do obs³ugi kolejek MTA
 Name:		pfqueue
 Version:	0.5.3
 Release:	0.2
@@ -19,11 +20,26 @@ easier to use.
 
 It's a real-time queue scanner, that shows per-queue lists of existing
 messages; the messages can be shown, deleted, put on hold, released or
-requeued
+requeued.
 
 Just for example, it may be useful to inspect a traffic jam at a given
 time, to see what is falling into and unexpectedly crowding your
 deferred queue.
+
+%description -l pl
+pfqueue to próba dostarczenia tekstowego (opartego na ncurses)
+interfejsu do poleceñ postqueue/mailq/postsuper/exim4; nie dodaje
+¿adnych konkretnych funkcji do dostarczanych przez same MTA, jedynie
+czyni je ³atwiejszymi w u¿yciu.
+
+Jest to program przeszukuj±cy kolejki w czasie rzeczywistym,
+pokazuj±cy listê istniej±cych wiadomo¶ci dla ka¿dej kolejki;
+wiadomo¶ci mog± byæ wy¶wietlone, usuniête, wstrzymane, wypuszczone lub
+ponownie skolejkowane.
+
+Program mo¿e byæ przydatny na przyk³ad do ¶ledzenia zatkania ruchu o
+danym czasie, aby zobaczyæ, co wpad³o i nieoczekiwanie zapcha³o
+kolejkê.
 
 %prep
 %setup -q
