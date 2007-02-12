@@ -1,5 +1,5 @@
 Summary:	A console-based tool for handling MTA queues
-Summary(pl):	Tekstowe narzêdzie do obs³ugi kolejek MTA
+Summary(pl.UTF-8):   Tekstowe narzÄ™dzie do obsÅ‚ugi kolejek MTA
 Name:		pfqueue
 Version:	0.5.3
 Release:	0.2
@@ -26,20 +26,20 @@ Just for example, it may be useful to inspect a traffic jam at a given
 time, to see what is falling into and unexpectedly crowding your
 deferred queue.
 
-%description -l pl
-pfqueue to próba dostarczenia tekstowego (opartego na ncurses)
-interfejsu do poleceñ postqueue/mailq/postsuper/exim4; nie dodaje
-¿adnych konkretnych funkcji do dostarczanych przez same MTA, jedynie
-czyni je ³atwiejszymi w u¿yciu.
+%description -l pl.UTF-8
+pfqueue to prÃ³ba dostarczenia tekstowego (opartego na ncurses)
+interfejsu do poleceÅ„ postqueue/mailq/postsuper/exim4; nie dodaje
+Å¼adnych konkretnych funkcji do dostarczanych przez same MTA, jedynie
+czyni je Å‚atwiejszymi w uÅ¼yciu.
 
-Jest to program przeszukuj±cy kolejki w czasie rzeczywistym,
-pokazuj±cy listê istniej±cych wiadomo¶ci dla ka¿dej kolejki;
-wiadomo¶ci mog± byæ wy¶wietlone, usuniête, wstrzymane, wypuszczone lub
+Jest to program przeszukujÄ…cy kolejki w czasie rzeczywistym,
+pokazujÄ…cy listÄ™ istniejÄ…cych wiadomoÅ›ci dla kaÅ¼dej kolejki;
+wiadomoÅ›ci mogÄ… byÄ‡ wyÅ›wietlone, usuniÄ™te, wstrzymane, wypuszczone lub
 ponownie skolejkowane.
 
-Program mo¿e byæ przydatny na przyk³ad do ¶ledzenia zatkania ruchu o
-danym czasie, aby zobaczyæ, co wpad³o i nieoczekiwanie zapcha³o
-kolejkê.
+Program moÅ¼e byÄ‡ przydatny na przykÅ‚ad do Å›ledzenia zatkania ruchu o
+danym czasie, aby zobaczyÄ‡, co wpadÅ‚o i nieoczekiwanie zapchaÅ‚o
+kolejkÄ™.
 
 %prep
 %setup -q
