@@ -1,5 +1,5 @@
 Summary:	A console-based tool for handling MTA queues
-Summary(pl.UTF-8):   Tekstowe narzędzie do obsługi kolejek MTA
+Summary(pl.UTF-8):	Tekstowe narzędzie do obsługi kolejek MTA
 Name:		pfqueue
 Version:	0.5.3
 Release:	0.2
