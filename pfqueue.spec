@@ -1,12 +1,12 @@
 Summary:	A console-based tool for handling MTA queues
 Summary(pl.UTF-8):	Tekstowe narzędzie do obsługi kolejek MTA
 Name:		pfqueue
-Version:	0.5.3
-Release:	0.2
+Version:	0.5.6
+Release:	1
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://dl.sourceforge.net/pfqueue/%{name}-%{version}.tar.gz
-# Source0-md5:	7700198871f91cf28e0164f8e776dd55
+# Source0-md5:	ff3fbcc39b39112f123b93df579998b8
 URL:		http://pfqueue.sourceforge.net/
 BuildRequires:	ncurses-devel
 #Requires:	postfix or exim
