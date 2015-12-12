@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications/Mail
 Source0:	http://dl.sourceforge.net/pfqueue/%{name}-%{version}.tar.gz
 # Source0-md5:	ff3fbcc39b39112f123b93df579998b8
+Patch0:		%{name}-build.patch
 URL:		http://pfqueue.sourceforge.net/
 BuildRequires:	ncurses-devel
 #Requires:	postfix or exim
@@ -43,6 +44,7 @@ kolejkę.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 CFLAGS="%{rpmcflags} -I/usr/include/ncurses"
